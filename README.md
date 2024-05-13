@@ -7,6 +7,7 @@ A very small tool for tracking youtube playlists written in go.
 
 ## Requirements
 * golang
+* youtube api key (requires google developer account)
 
 ## Usage
 Simply run
