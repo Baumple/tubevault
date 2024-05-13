@@ -12,7 +12,7 @@ func GetSaveDirPath() (string, error) {
 		return "", err
 	}
 
-	saveDir := filepath.Join(homeDir, ".watchvault")
+	saveDir := filepath.Join(homeDir, ".tubevault")
 	err = os.Mkdir(saveDir, 0777)
 	if err != nil && !strings.Contains(err.Error(), "file exists") {
 		return "", err

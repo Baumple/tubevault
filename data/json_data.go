@@ -23,7 +23,7 @@ func (jr *JsonRetriever) getSaveDirPath() (string, error) {
 }
 
 // getPlaylistDir returns a path to where playlists are stored.
-// Usually playlists are stored in HOME_DIR/.watchvault/playlists
+// Usually playlists are stored in HOME_DIR/.tubevault/playlists
 // But also "cashes" the value
 func (jr *JsonRetriever) getPlaylistDir() (string, error) {
 	if jr.playlistDir != "" {
